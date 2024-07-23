@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        int n=10;
+        int sumf=0;
+        for(int i=1;i<=n;i++){
+            System.out.println(i);
+            sumf=sumf+i;
+
+        }
+        System.out.println(sumf);
+        int j=1;
+        int sumd=0;
+        do {
+
+            System.out.println(j);
+            sumd=sumd+j;
+            j++;
+
+        }  while(j<=n);
+        System.out.println(sumd);
+
+        int k=10;
+       int sumw=0;
+        while(k>=1){
+            System.out.println(k);
+            sumw=sumw+k;
+            k--;
+
+
+
+
+        }
+        System.out.println(sumd);
+
+
+
+
+
+
+    }
+
+}
