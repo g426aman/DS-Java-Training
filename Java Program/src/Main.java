@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,11 +8,12 @@ public class Main {
         int i=1;
 
         for(i=1;i<=n;i++){
-            if(i==7){
-                break;
+            if(i%2==0){
+                System.out.println(i);
             }
 
-            System.out.println(i);
+
+
 
         }
 
