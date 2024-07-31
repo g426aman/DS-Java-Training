@@ -8,5 +8,6 @@ public class Inheritance {
     }
 
     private static void add(int i, int i1) {
+
     }
 }
