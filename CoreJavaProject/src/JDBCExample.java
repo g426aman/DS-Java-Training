@@ -13,14 +13,14 @@ public class JDBCExample {
         //to make the connection
         try {
             Connection conn= DriverManager.getConnection(url,username,password);
-            int Sno =1;
-            String name = "Cathy";
-            String email = "aman@gmail.com";
+            String name = "Ajay";
+            String email = "ajaysingh@gmail.com";
             String mobile = "8009066094";
             String technology= "Java";
             String address = "Lucknow";
             String query= "INSERT INTO Trainer VALUES (?,?,?,?,?,?)";
             PreparedStatement stmt = conn.prepareStatement(query);
+            int Sno = 3;
             stmt.setInt(1,Sno);
             stmt.setString(2,name);
             stmt.setString(3,email);
