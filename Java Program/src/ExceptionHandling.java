@@ -31,6 +31,8 @@ public class ExceptionHandling {
             System.out.println(e);
         }
 
-
+        finally {
+            System.out.println("finally");
+        }
     }
 }
