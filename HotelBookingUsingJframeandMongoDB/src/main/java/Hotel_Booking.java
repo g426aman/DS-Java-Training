@@ -9,13 +9,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Main {
+public class Hotel_Booking {
     public static void main(String[] args) {
         Hotel_Booking();
     }
     static void Hotel_Booking(){
         JFrame frame=new JFrame();
-        ImageIcon imageIcon=new ImageIcon("C:\\Users\\PC\\OneDrive\\Desktop\\Devtown\\Web Development");
+        ImageIcon imageIcon=new ImageIcon("C:\\Users\\PC\\OneDrive\\Desktop\\Devtown\\Web Development\\Photography Portfolio Website in Grey  Black  Light Experimental Style (7).png");
         frame.setContentPane(new JLabel(imageIcon));
 
 
@@ -319,9 +319,9 @@ public class Main {
                 }
 
                 var client = MongoClients.create("mongodb://localhost:27017/");
-                var database = client.getDatabase("HotelBookingDB");
+                var database = client.getDatabase("hotelBookingDB");
 
-//                database.createCollection("Booking");
+              //  database.createCollection("Booking");
 
                 var collection = database.getCollection("Booking");
 
